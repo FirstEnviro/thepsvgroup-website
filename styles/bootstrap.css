@@ -2202,7 +2202,7 @@ progress {
     top: 0;
     left: 50%;
     margin-left: -2px;
-    border-right: 2px dashed #4b546f;
+    border-right: 2px dashed var(--bs-border-color);
     height: 100%;
     display: block;
   }
@@ -2219,7 +2219,7 @@ progress {
     top: 15px;
     text-align: right;
     margin-right: 20px;
-    color: #bcd0f7;
+    color: var(--bs-body-color);
     font-size: 1.5rem;
   }
 
@@ -2231,15 +2231,15 @@ progress {
   .timeline-row .timeline-content {
     position: relative;
     padding: 20px 30px;
-    background: #1a233a;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+    background: var(--bs-body-bg);;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    background-clip: border-box;
   }
 
   .timeline-row .timeline-content:after {
@@ -2248,7 +2248,8 @@ progress {
     top: 20px;
     height: 16px;
     width: 16px;
-    background: #1a233a;
+    background: var(--bs-body-bg);
+    border: var(--bs-border-width) solid var(--bs-border-color);
   }
 
   .timeline-row .timeline-content:before {
@@ -2262,8 +2263,8 @@ progress {
     -moz-border-radius: 100px;
     border-radius: 100px;
     z-index: 10;
-    background: #272e48;
-    border: 2px dashed #4b546f;
+    background: var(--bs-body-bg);
+    border: 2px dashed var(--bs-border-color);
   }
 
   .timeline-row .timeline-content h4 {
@@ -2277,18 +2278,6 @@ progress {
   .timeline-row .timeline-content p {
     margin-bottom: 30px;
     line-height: 150%;
-  }
-
-  .timeline-row .timeline-content i {
-    font-size: 1.2rem;
-    line-height: 100%;
-    padding: 15px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border-radius: 100px;
-    background: #272e48;
-    margin-bottom: 10px;
-    display: inline-block;
   }
 
   .timeline-row .timeline-content .thumbs {
