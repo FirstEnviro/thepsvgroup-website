@@ -1,0 +1,355 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" data-bs-theme="dark">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>WX53 UKK | The PSV Group</title>
+
+    <link href="styles/stylesheet.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="styles/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="https://kit.fontawesome.com/925d94d5d5.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <button
+        type="button"
+        class="btn btn-primary btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!--Header-->
+    <header>
+      <nav id="global-nav" class="container navbar">
+        <a href="/" class="d-flex align-items-center my-3 link-body-emphasis text-decoration-none nav-logo">
+          <img src="images/logo.png" height="32"/>
+        </a>
+        <ul class="navbar-nav mb-2 mb-md-0 nav nav-pills">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Support</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Events</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+			<nav id="global-nav-mobile-bar" class="wrap container border-bottom">
+				<a href="/" class="d-flex align-items-center my-3 link-body-emphasis text-decoration-none nav-logo">
+          <img src="images/logo.png" class="header-logo" height="32"/>
+        </a>
+				<a class="burger nav-text" onClick="toggleMenu()">
+				<i class="fas fa-bars"></i></a>
+			</nav>
+			<nav id="global-nav-mobile-menu" class="wrap" aria-hidden="true">
+        <div class="container">
+          <ul class="navbar-nav mb-2 mb-md-0 nav nav-pills">
+            <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Support</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Events</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          </ul>
+        </div>
+			</nav>
+			<a id="wrap-page" onClick="closeMenu()"></a>
+			<script src="scripts/dropdownmenu.js" type="text/javascript"></script>
+		</header>
+
+    <!--Main Banner-->
+    <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-body-tertiary" style="background-image: url('images/index/wx53ukk.jpg'); background-position: center; background-size: cover;">
+      <div class="col-md-6 p-lg-5 mx-auto my-5" >
+        <h1 class="display-3 fw-bold text-shadow-1">WX53 UKK</h1>
+        <h3 class="fw-normal text-muted mb-3 text-shadow-1">Transbus ALX 400 Volvo B7TL</h3>
+      </div>
+    </div>
+
+    <!--Body-->
+    <div class="container px-4 py-5" id="icon-grid">
+      <h2 class="pb-2 border-bottom">Vehicle Specifications</h2>
+  
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-bus bi flex-shrink-0 me-3 vehicle-icon"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Body</h3>
+            <p>Transbus ALX 400</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-wrench bi flex-shrink-0 me-3 vehicle-icon"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Chassis</h3>
+            <p>Volvo B7TL</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-gear bi flex-shrink-0 me-3 vehicle-icon"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Engine</h3>
+            <p>Volvo D7C 7-litre</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-gears bi flex-shrink-0 me-3 vehicle-icon"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Gearbox</h3>
+            <p>ZF 5HP500</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-smog bi flex-shrink-0 me-3 vehicle-icon"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Euro Status</h3>
+            <p>Euro 3</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-gauge bi flex-shrink-0 me-3 vehicle-icon"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Top Speed</h3>
+            <p>51mph</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-chair bi flex-shrink-0 me-3 vehicle-icon"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Capacity</h3>
+            <p>79 seated, X standing</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-calendar bi flex-shrink-0 me-3 vehicle-icon"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Registration Year</h3>
+            <p>2003</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom">History</h2>
+      <p>WX53 UKK was new to First Bristol based at Muller Road depot part of the batch numbered 32279-32292. It was part of a batch originally ordered by First intended for South Yorkshire and was assigned fleet numbers for the South Yorkshire numbering system with WX53 UKK being assigned 31753. The order for the batch was diverted to Bristol and WX53 UKK was reassigned a new fleet number of 32289 to fit in with Bristol's numbering system. 32289 is one of only two vehicles of the batch that entered service with a 53 plate rather than 03 like the rest of the batch, the other vehicle being 32290 WX53 UKL. 32289 was originally assigned the registration of WR03 YZY however was registered after the cutoff so was reassigned a new registration of WX53 UKK.</p>
+      <p>32289 was delivered new in Barbie 1 and was repainted into the new corporate "Urban" livery in 2014 where it gained the "West of England" skyline titles. During its time in service 32289 worked at Muller Road, Lawrence Hill, Hengrove, Weston-super-Mare and Bath depots before finishing its service life at Lawrence Hill in 2021.</p>
+    </div>
+
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom">In Preservation</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla metus a facilisis gravida. Maecenas vel nulla non dui venenatis consectetur. Quisque quis enim velit. Praesent at arcu leo. Maecenas tempus, ex id dignissim pulvinar, erat nibh tristique sem, ac dignissim mi metus quis urna. Morbi ultricies velit vel ante imperdiet ullamcorper. Integer sagittis, mauris et condimentum sagittis, mi sem maximus magna, eget maximus ligula lectus vitae metus. Phasellus malesuada non mauris sit amet hendrerit. Vivamus eget nisi sit amet nulla fringilla laoreet. Vivamus ac lacinia mauris. Proin ut tortor sit amet eros pulvinar condimentum in sit amet dolor. Maecenas ultrices pretium nibh. Pellentesque dignissim feugiat ligula ut efficitur.</p>    </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla metus a facilisis gravida. Maecenas vel nulla non dui venenatis consectetur. Quisque quis enim velit. Praesent at arcu leo. Maecenas tempus, ex id dignissim pulvinar, erat nibh tristique sem, ac dignissim mi metus quis urna. Morbi ultricies velit vel ante imperdiet ullamcorper. Integer sagittis, mauris et condimentum sagittis, mi sem maximus magna, eget maximus ligula lectus vitae metus. Phasellus malesuada non mauris sit amet hendrerit. Vivamus eget nisi sit amet nulla fringilla laoreet. Vivamus ac lacinia mauris. Proin ut tortor sit amet eros pulvinar condimentum in sit amet dolor. Maecenas ultrices pretium nibh. Pellentesque dignissim feugiat ligula ut efficitur.</p>    </p>
+    </div>
+
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom">Future Plans</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla metus a facilisis gravida. Maecenas vel nulla non dui venenatis consectetur. Quisque quis enim velit. Praesent at arcu leo. Maecenas tempus, ex id dignissim pulvinar, erat nibh tristique sem, ac dignissim mi metus quis urna. Morbi ultricies velit vel ante imperdiet ullamcorper. Integer sagittis, mauris et condimentum sagittis, mi sem maximus magna, eget maximus ligula lectus vitae metus. Phasellus malesuada non mauris sit amet hendrerit. Vivamus eget nisi sit amet nulla fringilla laoreet. Vivamus ac lacinia mauris. Proin ut tortor sit amet eros pulvinar condimentum in sit amet dolor. Maecenas ultrices pretium nibh. Pellentesque dignissim feugiat ligula ut efficitur.</p>    </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla metus a facilisis gravida. Maecenas vel nulla non dui venenatis consectetur. Quisque quis enim velit. Praesent at arcu leo. Maecenas tempus, ex id dignissim pulvinar, erat nibh tristique sem, ac dignissim mi metus quis urna. Morbi ultricies velit vel ante imperdiet ullamcorper. Integer sagittis, mauris et condimentum sagittis, mi sem maximus magna, eget maximus ligula lectus vitae metus. Phasellus malesuada non mauris sit amet hendrerit. Vivamus eget nisi sit amet nulla fringilla laoreet. Vivamus ac lacinia mauris. Proin ut tortor sit amet eros pulvinar condimentum in sit amet dolor. Maecenas ultrices pretium nibh. Pellentesque dignissim feugiat ligula ut efficitur.</p>    </p>
+    </div>
+
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom">Gallery</h2>
+      <div class="row">
+        <a href="images/wx53ukk/1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+          <img src="images/wx53ukk/1.jpg" class="img-fluid">
+        </a>
+        <a href="images/wx53ukk/2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+          <img src="images/wx53ukk/2.jpg" class="img-fluid">
+        </a>
+        <a href="images/wx53ukk/3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+          <img src="images/wx53ukk/3.jpg" class="img-fluid">
+        </a>
+      </div>
+      <div class="row">
+        <a href="images/wx53ukk/4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+          <img src="images/wx53ukk/4.jpg" class="img-fluid">
+        </a>
+        <a href="images/wx53ukk/5.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+          <img src="images/wx53ukk/5.jpg" class="img-fluid">
+        </a>
+        <a href="images/wx53ukk/6.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+          <img src="images/wx53ukk/6.jpg" class="img-fluid">
+        </a>
+      </div>
+  </div>
+
+  <div class="container px-4 py-5">
+    <h2 class="pb-2 border-bottom">Preservation Journey</h2>
+    <div class="container">
+      <div class="timeline">
+          <div class="timeline-row">
+            <div class="timeline-time">
+              7:45PM<small>Dec 21</small>
+            </div>
+            <div class="timeline-content">
+              <i class="icon-attachment"></i>
+              <h4>Admin theme!</h4>
+              <p>Maxwell Admin Dashboard contains C3 graphs, flot graphs, data tables, calendar, drag &amp; drop and ion slider.</p>
+              <div class="thumbs">
+                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Maxwell Admin">
+                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="Maxwell Admin">
+                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin">
+              </div>
+              <div class="">
+                <span class="badge badge-pill">Sales</span>
+                <span class="badge badge-pill">Admin</span>
+              </div>
+            </div>
+          </div>
+      
+          <div class="timeline-row">
+            <div class="timeline-time">
+              8:00 AM<small>Dec 18</small>
+            </div>
+            <div class="timeline-content">
+              <i class="icon-code"></i>
+              <h4>Admin Dashboard!</h4>
+              <p>
+                Maxwell Admin Dashboard contains C3 graphs, flot graphs, data tables, calendar.
+              </p>
+              <div class="thumbs">
+                <div class="thumbs">
+                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Maxwell Admin">
+                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="Maxwell Admin">
+                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin">
+              </div>
+              </div>
+              <div class="">
+                <span class="badge badge-pill">Graphs</span>
+                <span class="badge badge-pill">Chat</span>
+              </div>
+            </div>
+          </div>
+      
+          <div class="timeline-row">
+            <div class="timeline-time">
+              7:25 PM<small>Dec 6</small>
+            </div>
+            <div class="timeline-content">
+              <i class="icon-turned_in_not"></i>
+              <h4>Best Admin Template!</h4>
+              <p>Custom C3 graphs, Custom flot graphs, flot graphs, small graphs, Sass, profile and timeline.</p>
+              <div>
+                <span class="badge badge-pill">Invoice</span>
+                <span class="badge badge-pill">Tasks</span>
+              </div>
+            </div>
+          </div>
+      
+          <div class="timeline-row">
+            <div class="timeline-time">
+              3:55 PM<small>Dec 26</small>
+            </div>
+            <div class="timeline-content">
+              <i class="icon-directions"></i>
+              <h4>Maxwell Admin</h4>
+              <p>Maxwell Admin Dashboard contains C3 graphs, flot graphs, data tables, calendar, drag &amp; drop and ion slider.</p>
+              <div>
+                <span class="badge badge-pill">Profile</span>
+                <span class="badge badge-pill">Sales</span>
+              </div>
+            </div>
+          </div>
+      
+          <div class="timeline-row">
+            <div class="timeline-time">
+              5:24 PM<small>Dec 12</small>
+            </div>
+            <div class="timeline-content">
+              <i class="icon-change_history"></i>
+              <h4>Maxwell Dashboard</h4>
+              <p class="no-margin">Maxwell Admin dashboard includes invoice, profile, tasks, gallery, projects, maintanence.</p>
+              <div class="thumbs">
+                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Maxwell Admin">
+                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Maxwell Admin">
+                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar5.png" alt="Maxwell Admin">
+              </div>
+              <div>
+                <span class="badge badge-pill">Analytics</span>
+                <span class="badge badge-pill">Contacts</span>
+              </div>
+            </div>
+          </div>
+      
+          <div class="timeline-row">
+            <div class="timeline-time">
+              8:00 AM<small>Dec 18</small>
+            </div>
+            <div class="timeline-content">
+              <i class="icon-code"></i>
+              <h4>Admin Dashboard!</h4>
+              <p>
+                Maxwell Admin Dashboard contains C3 graphs, flot graphs, data tables, calendar.
+              </p>
+              <div class="thumbs">
+                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Maxwell Admin">
+                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="Maxwell Admin">
+                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin">
+              </div>
+              <div class="">
+                <span class="badge badge-pill">Ecommerce</span>
+                <span class="badge badge-pill">CRM</span>
+              </div>
+            </div>
+          </div>
+      
+          <div class="timeline-row">
+            <div class="timeline-time">
+              7:45PM<small>Dec 21</small>
+            </div>
+            <div class="timeline-content">
+              <i class="icon-attachment"></i>
+              <h4>Admin Template!</h4>
+              <p>Maxwell Admin Dashboard contains C3 graphs, flot graphs, data tables, calendar, drag &amp; drop and ion slider.</p>
+              <div class="thumbs">
+                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="Maxwell Admin">
+                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin">
+              </div>
+              <div class="">
+                <span class="badge badge-pill">Orders</span>
+                <span class="badge badge-pill">Sales</span>
+              </div>
+            </div>
+          </div>
+      
+          <div class="timeline-row">
+            <div class="timeline-content">
+              <p class="m-0">Loading...</p>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+  </div>
+    
+
+    <!--Footer-->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 The Public Service Vehicle Group Limited</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img src="images/logo.png" class="bi me-2" height="16"/>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Projects</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Products</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Support</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Events</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+      </footer>
+    </div>
+    
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+    <script src="scripts/index.bundle.min.js"></script>
+</body>
+</html>
