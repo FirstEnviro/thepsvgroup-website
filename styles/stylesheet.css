@@ -103,4 +103,70 @@ body {
     display: none;
   }
 
+
+@keyframes fadein-banner {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadein-banner-animation {
+  animation: 2s fadein-banner;
+}
+
+@keyframes fadein-text {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadein-text-animation {
+  animation: 4s fadein-text;
+}
+
+
+
   
+.product-title {
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-top: -20px;
+}
+
+.product-header {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2
+}
+
+.product-blurb {
+  font-size:1rem;
+  margin-top: -0.5rem;
+}
+
+@media (min-width: 1600px) {
+  .product-title {
+      font-size:14rem;
+      margin-top: -50px;
+  }
+  .product-header {
+      font-size:2rem;
+  }
+  .product-blurb {
+    font-size:2rem;
+    margin-top: -3rem;
+  }
+}
